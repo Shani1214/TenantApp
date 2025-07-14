@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A02DF322D685A260000BBAC /* CompleteProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02DF312D685A260000BBAC /* CompleteProfile.swift */; };
+		9A02DF352D685BD70000BBAC /* Imagepicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A02DF342D685BD70000BBAC /* Imagepicker.swift */; };
+		9A0C5D152D6C45A2009DC05D /* LocationMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C5D142D6C45A2009DC05D /* LocationMap.swift */; };
+		9A0C5D172D6C5171009DC05D /* MyProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C5D162D6C5171009DC05D /* MyProfile.swift */; };
+		9A0C5D1B2D6C5824009DC05D /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0C5D1A2D6C5824009DC05D /* EditProfile.swift */; };
+		9A2B48C12D7578C50078A713 /* Subscriptionplans_Free.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B48C02D7578C50078A713 /* Subscriptionplans_Free.swift */; };
+		9A2B48C32D7586840078A713 /* SubscriptionPlans_Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B48C22D7586840078A713 /* SubscriptionPlans_Basic.swift */; };
+		9A43533F2D646AA0006EF1D4 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43533E2D646AA0006EF1D4 /* SignUpView.swift */; };
+		9A43C3832D7EB11F0047BEAE /* RentHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43C3822D7EB11F0047BEAE /* RentHistory.swift */; };
+		9A43C3852D7EBC970047BEAE /* Receipt Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A43C3842D7EBC970047BEAE /* Receipt Details.swift */; };
+		9A54FBD32D8AD49F00828A03 /* Urbanist-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBD22D8AD49F00828A03 /* Urbanist-VariableFont_wght.ttf */; };
+		9A54FBD72D8AD70400828A03 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A54FBD62D8AD70400828A03 /* Fonts.swift */; };
+		9A54FBEA2D8AD87000828A03 /* Urbanist-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDD2D8AD87000828A03 /* Urbanist-ExtraBoldItalic.ttf */; };
+		9A54FBEB2D8AD87000828A03 /* Urbanist-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDF2D8AD87000828A03 /* Urbanist-ExtraLightItalic.ttf */; };
+		9A54FBEC2D8AD87000828A03 /* Urbanist-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDC2D8AD87000828A03 /* Urbanist-ExtraBold.ttf */; };
+		9A54FBED2D8AD87000828A03 /* Urbanist-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE22D8AD87000828A03 /* Urbanist-LightItalic.ttf */; };
+		9A54FBEE2D8AD87000828A03 /* Urbanist-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDE2D8AD87000828A03 /* Urbanist-ExtraLight.ttf */; };
+		9A54FBEF2D8AD87000828A03 /* Urbanist-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE42D8AD87000828A03 /* Urbanist-MediumItalic.ttf */; };
+		9A54FBF02D8AD87000828A03 /* Urbanist-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE62D8AD87000828A03 /* Urbanist-SemiBold.ttf */; };
+		9A54FBF12D8AD87000828A03 /* Urbanist-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE92D8AD87000828A03 /* Urbanist-ThinItalic.ttf */; };
+		9A54FBF22D8AD87000828A03 /* Urbanist-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDB2D8AD87000828A03 /* Urbanist-BoldItalic.ttf */; };
+		9A54FBF32D8AD87000828A03 /* Urbanist-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBD92D8AD87000828A03 /* Urbanist-BlackItalic.ttf */; };
+		9A54FBF42D8AD87000828A03 /* Urbanist-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBD82D8AD87000828A03 /* Urbanist-Black.ttf */; };
+		9A54FBF52D8AD87000828A03 /* Urbanist-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE72D8AD87000828A03 /* Urbanist-SemiBoldItalic.ttf */; };
+		9A54FBF62D8AD87000828A03 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBDA2D8AD87000828A03 /* Urbanist-Bold.ttf */; };
+		9A54FBF72D8AD87000828A03 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE12D8AD87000828A03 /* Urbanist-Light.ttf */; };
+		9A54FBF82D8AD87000828A03 /* Urbanist-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE32D8AD87000828A03 /* Urbanist-Medium.ttf */; };
+		9A54FBF92D8AD87000828A03 /* Urbanist-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE02D8AD87000828A03 /* Urbanist-Italic.ttf */; };
+		9A54FBFA2D8AD87000828A03 /* Urbanist-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE82D8AD87000828A03 /* Urbanist-Thin.ttf */; };
+		9A54FBFB2D8AD87000828A03 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9A54FBE52D8AD87000828A03 /* Urbanist-Regular.ttf */; };
+		9A70DE9F2D6D9381009BCE6A /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70DE9E2D6D9381009BCE6A /* DashboardView.swift */; };
+		9A70DEA22D6DA4E8009BCE6A /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A70DEA12D6DA4E8009BCE6A /* TabView.swift */; };
+		9A939A982D78382A00EE36CC /* SubscriptionPlans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A939A972D78382900EE36CC /* SubscriptionPlans.swift */; };
+		9A939A9A2D783E6A00EE36CC /* CancelSubscriptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A939A992D783E6A00EE36CC /* CancelSubscriptionButton.swift */; };
+		9A9825262D6C3E1E007E8F41 /* Allowlocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9825252D6C3E1E007E8F41 /* Allowlocation.swift */; };
+		9AC9EC892D64524D0090802B /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC882D64524D0090802B /* SplashScreen.swift */; };
+		9AC9EC932D6453A60090802B /* Image_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC922D6453A60090802B /* Image_Extension.swift */; };
+		9AC9EC972D6454990090802B /* ExtensionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC962D6454990090802B /* ExtensionView.swift */; };
+		9AC9EC992D6454B40090802B /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC982D6454B40090802B /* ColorExtension.swift */; };
+		9AC9EC9B2D6455CC0090802B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC9A2D6455CC0090802B /* LoginView.swift */; };
+		9AC9EC9E2D645A310090802B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC9D2D645A310090802B /* ButtonView.swift */; };
+		9AC9ECA02D645A7B0090802B /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC9EC9F2D645A7B0090802B /* TextFieldView.swift */; };
+		9AF62E232D65AEA400C59318 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF62E222D65AEA400C59318 /* OTPVerificationView.swift */; };
+		9AF62E2C2D65AF8B00C59318 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF62E2B2D65AF8B00C59318 /* OTPFieldView.swift */; };
+		9AF62E2E2D65B0A500C59318 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF62E2D2D65B0A500C59318 /* HideKeyboard.swift */; };
+		9AF63D752D66FBF800130533 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63D742D66FBF700130533 /* ResetPasswordView.swift */; };
+		9AF63D772D67064B00130533 /* ForgotPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF63D762D67064B00130533 /* ForgotPassword.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A02DF312D685A260000BBAC /* CompleteProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfile.swift; sourceTree = "<group>"; };
+		9A02DF342D685BD70000BBAC /* Imagepicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Imagepicker.swift; sourceTree = "<group>"; };
+		9A0C5D142D6C45A2009DC05D /* LocationMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMap.swift; sourceTree = "<group>"; };
+		9A0C5D162D6C5171009DC05D /* MyProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfile.swift; sourceTree = "<group>"; };
+		9A0C5D1A2D6C5824009DC05D /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		9A2B48C02D7578C50078A713 /* Subscriptionplans_Free.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptionplans_Free.swift; sourceTree = "<group>"; };
+		9A2B48C22D7586840078A713 /* SubscriptionPlans_Basic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlans_Basic.swift; sourceTree = "<group>"; };
+		9A43533E2D646AA0006EF1D4 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		9A43C3822D7EB11F0047BEAE /* RentHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentHistory.swift; sourceTree = "<group>"; };
+		9A43C3842D7EBC970047BEAE /* Receipt Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Receipt Details.swift"; sourceTree = "<group>"; };
+		9A54FBD22D8AD49F00828A03 /* Urbanist-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		9A54FBD62D8AD70400828A03 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		9A54FBD82D8AD87000828A03 /* Urbanist-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Black.ttf"; sourceTree = "<group>"; };
+		9A54FBD92D8AD87000828A03 /* Urbanist-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BlackItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBDA2D8AD87000828A03 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		9A54FBDB2D8AD87000828A03 /* Urbanist-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-BoldItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBDC2D8AD87000828A03 /* Urbanist-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9A54FBDD2D8AD87000828A03 /* Urbanist-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBDE2D8AD87000828A03 /* Urbanist-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9A54FBDF2D8AD87000828A03 /* Urbanist-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBE02D8AD87000828A03 /* Urbanist-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Italic.ttf"; sourceTree = "<group>"; };
+		9A54FBE12D8AD87000828A03 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		9A54FBE22D8AD87000828A03 /* Urbanist-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-LightItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBE32D8AD87000828A03 /* Urbanist-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Medium.ttf"; sourceTree = "<group>"; };
+		9A54FBE42D8AD87000828A03 /* Urbanist-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-MediumItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBE52D8AD87000828A03 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		9A54FBE62D8AD87000828A03 /* Urbanist-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBold.ttf"; sourceTree = "<group>"; };
+		9A54FBE72D8AD87000828A03 /* Urbanist-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		9A54FBE82D8AD87000828A03 /* Urbanist-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Thin.ttf"; sourceTree = "<group>"; };
+		9A54FBE92D8AD87000828A03 /* Urbanist-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-ThinItalic.ttf"; sourceTree = "<group>"; };
+		9A70DE9E2D6D9381009BCE6A /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		9A70DEA12D6DA4E8009BCE6A /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		9A939A972D78382900EE36CC /* SubscriptionPlans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPlans.swift; sourceTree = "<group>"; };
+		9A939A992D783E6A00EE36CC /* CancelSubscriptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSubscriptionButton.swift; sourceTree = "<group>"; };
+		9A9825252D6C3E1E007E8F41 /* Allowlocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allowlocation.swift; sourceTree = "<group>"; };
+		9AC9EC762D6452160090802B /* TenantApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenantApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AC9EC882D64524D0090802B /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		9AC9EC922D6453A60090802B /* Image_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_Extension.swift; sourceTree = "<group>"; };
+		9AC9EC962D6454990090802B /* ExtensionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionView.swift; sourceTree = "<group>"; };
+		9AC9EC982D6454B40090802B /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9AC9EC9A2D6455CC0090802B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9AC9EC9D2D645A310090802B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		9AC9EC9F2D645A7B0090802B /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		9AF62E222D65AEA400C59318 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		9AF62E2B2D65AF8B00C59318 /* OTPFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPFieldView.swift; sourceTree = "<group>"; };
+		9AF62E2D2D65B0A500C59318 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		9AF63D742D66FBF700130533 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		9AF63D762D67064B00130533 /* ForgotPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassword.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9A54FBD52D8AD68900828A03 /* Exceptions for "TenantApp" folder in "TenantApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 9AC9EC752D6452160090802B /* TenantApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9AC9EC782D6452160090802B /* TenantApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9A54FBD52D8AD68900828A03 /* Exceptions for "TenantApp" folder in "TenantApp" target */,
+			);
+			path = TenantApp;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AC9EC732D6452160090802B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A02DF2E2D6857B80000BBAC /* ProfileSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9A02DF312D685A260000BBAC /* CompleteProfile.swift */,
+				9A9825252D6C3E1E007E8F41 /* Allowlocation.swift */,
+				9A0C5D142D6C45A2009DC05D /* LocationMap.swift */,
+				9A0C5D162D6C5171009DC05D /* MyProfile.swift */,
+				9A0C5D1A2D6C5824009DC05D /* EditProfile.swift */,
+			);
+			path = ProfileSystem;
+			sourceTree = "<group>";
+		};
+		9A02DF332D685BCA0000BBAC /* imagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				9A02DF342D685BD70000BBAC /* Imagepicker.swift */,
+			);
+			path = imagePicker;
+			sourceTree = "<group>";
+		};
+		9A2B48BF2D75788A0078A713 /* SubscriptionPlans */ = {
+			isa = PBXGroup;
+			children = (
+				9A2B48C02D7578C50078A713 /* Subscriptionplans_Free.swift */,
+				9A2B48C22D7586840078A713 /* SubscriptionPlans_Basic.swift */,
+				9A939A972D78382900EE36CC /* SubscriptionPlans.swift */,
+			);
+			path = SubscriptionPlans;
+			sourceTree = "<group>";
+		};
+		9A54FBD12D8AD47700828A03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9A54FBD22D8AD49F00828A03 /* Urbanist-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9A70DE9D2D6D92E0009BCE6A /* Dashboard&PaymentHistory */ = {
+			isa = PBXGroup;
+			children = (
+				9A70DE9E2D6D9381009BCE6A /* DashboardView.swift */,
+				9A43C3822D7EB11F0047BEAE /* RentHistory.swift */,
+				9A43C3842D7EBC970047BEAE /* Receipt Details.swift */,
+			);
+			path = "Dashboard&PaymentHistory";
+			sourceTree = "<group>";
+		};
+		9A70DEA02D6DA4CB009BCE6A /* Home_Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9A70DEA12D6DA4E8009BCE6A /* TabView.swift */,
+			);
+			path = Home_Tabbar;
+			sourceTree = "<group>";
+		};
+		9AC9EC6D2D6452160090802B = {
+			isa = PBXGroup;
+			children = (
+				9A2B48BF2D75788A0078A713 /* SubscriptionPlans */,
+				9A70DEA02D6DA4CB009BCE6A /* Home_Tabbar */,
+				9A70DE9D2D6D92E0009BCE6A /* Dashboard&PaymentHistory */,
+				9A02DF332D685BCA0000BBAC /* imagePicker */,
+				9A02DF2E2D6857B80000BBAC /* ProfileSystem */,
+				9AC9EC9C2D645A180090802B /* Components */,
+				9AC9EC912D6453900090802B /* Extensions */,
+				9AC9EC872D64522D0090802B /* EmailAuth */,
+				9AC9EC782D6452160090802B /* TenantApp */,
+				9AC9EC772D6452160090802B /* Products */,
+				9A54FBD12D8AD47700828A03 /* Fonts */,
+				9A54FBD82D8AD87000828A03 /* Urbanist-Black.ttf */,
+				9A54FBD92D8AD87000828A03 /* Urbanist-BlackItalic.ttf */,
+				9A54FBDA2D8AD87000828A03 /* Urbanist-Bold.ttf */,
+				9A54FBDB2D8AD87000828A03 /* Urbanist-BoldItalic.ttf */,
+				9A54FBDC2D8AD87000828A03 /* Urbanist-ExtraBold.ttf */,
+				9A54FBDD2D8AD87000828A03 /* Urbanist-ExtraBoldItalic.ttf */,
+				9A54FBDE2D8AD87000828A03 /* Urbanist-ExtraLight.ttf */,
+				9A54FBDF2D8AD87000828A03 /* Urbanist-ExtraLightItalic.ttf */,
+				9A54FBE02D8AD87000828A03 /* Urbanist-Italic.ttf */,
+				9A54FBE12D8AD87000828A03 /* Urbanist-Light.ttf */,
+				9A54FBE22D8AD87000828A03 /* Urbanist-LightItalic.ttf */,
+				9A54FBE32D8AD87000828A03 /* Urbanist-Medium.ttf */,
+				9A54FBE42D8AD87000828A03 /* Urbanist-MediumItalic.ttf */,
+				9A54FBE52D8AD87000828A03 /* Urbanist-Regular.ttf */,
+				9A54FBE62D8AD87000828A03 /* Urbanist-SemiBold.ttf */,
+				9A54FBE72D8AD87000828A03 /* Urbanist-SemiBoldItalic.ttf */,
+				9A54FBE82D8AD87000828A03 /* Urbanist-Thin.ttf */,
+				9A54FBE92D8AD87000828A03 /* Urbanist-ThinItalic.ttf */,
+			);
+			sourceTree = "<group>";
+		};
+		9AC9EC772D6452160090802B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9EC762D6452160090802B /* TenantApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AC9EC872D64522D0090802B /* EmailAuth */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9EC882D64524D0090802B /* SplashScreen.swift */,
+				9AC9EC9A2D6455CC0090802B /* LoginView.swift */,
+				9A43533E2D646AA0006EF1D4 /* SignUpView.swift */,
+				9AF62E222D65AEA400C59318 /* OTPVerificationView.swift */,
+				9AF63D742D66FBF700130533 /* ResetPasswordView.swift */,
+				9AF63D762D67064B00130533 /* ForgotPassword.swift */,
+			);
+			path = EmailAuth;
+			sourceTree = "<group>";
+		};
+		9AC9EC912D6453900090802B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9EC922D6453A60090802B /* Image_Extension.swift */,
+				9AC9EC962D6454990090802B /* ExtensionView.swift */,
+				9AC9EC982D6454B40090802B /* ColorExtension.swift */,
+				9AF62E2D2D65B0A500C59318 /* HideKeyboard.swift */,
+				9A54FBD62D8AD70400828A03 /* Fonts.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9AC9EC9C2D645A180090802B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9AC9EC9D2D645A310090802B /* ButtonView.swift */,
+				9AC9EC9F2D645A7B0090802B /* TextFieldView.swift */,
+				9AF62E2B2D65AF8B00C59318 /* OTPFieldView.swift */,
+				9A939A992D783E6A00EE36CC /* CancelSubscriptionButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AC9EC752D6452160090802B /* TenantApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AC9EC842D6452170090802B /* Build configuration list for PBXNativeTarget "TenantApp" */;
+			buildPhases = (
+				9AC9EC722D6452160090802B /* Sources */,
+				9AC9EC732D6452160090802B /* Frameworks */,
+				9AC9EC742D6452160090802B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9AC9EC782D6452160090802B /* TenantApp */,
+			);
+			name = TenantApp;
+			packageProductDependencies = (
+			);
+			productName = TenantApp;
+			productReference = 9AC9EC762D6452160090802B /* TenantApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AC9EC6E2D6452160090802B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9AC9EC752D6452160090802B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 9AC9EC712D6452160090802B /* Build configuration list for PBXProject "TenantApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AC9EC6D2D6452160090802B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9AC9EC772D6452160090802B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AC9EC752D6452160090802B /* TenantApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AC9EC742D6452160090802B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A54FBD32D8AD49F00828A03 /* Urbanist-VariableFont_wght.ttf in Resources */,
+				9A54FBEA2D8AD87000828A03 /* Urbanist-ExtraBoldItalic.ttf in Resources */,
+				9A54FBEB2D8AD87000828A03 /* Urbanist-ExtraLightItalic.ttf in Resources */,
+				9A54FBEC2D8AD87000828A03 /* Urbanist-ExtraBold.ttf in Resources */,
+				9A54FBED2D8AD87000828A03 /* Urbanist-LightItalic.ttf in Resources */,
+				9A54FBEE2D8AD87000828A03 /* Urbanist-ExtraLight.ttf in Resources */,
+				9A54FBEF2D8AD87000828A03 /* Urbanist-MediumItalic.ttf in Resources */,
+				9A54FBF02D8AD87000828A03 /* Urbanist-SemiBold.ttf in Resources */,
+				9A54FBF12D8AD87000828A03 /* Urbanist-ThinItalic.ttf in Resources */,
+				9A54FBF22D8AD87000828A03 /* Urbanist-BoldItalic.ttf in Resources */,
+				9A54FBF32D8AD87000828A03 /* Urbanist-BlackItalic.ttf in Resources */,
+				9A54FBF42D8AD87000828A03 /* Urbanist-Black.ttf in Resources */,
+				9A54FBF52D8AD87000828A03 /* Urbanist-SemiBoldItalic.ttf in Resources */,
+				9A54FBF62D8AD87000828A03 /* Urbanist-Bold.ttf in Resources */,
+				9A54FBF72D8AD87000828A03 /* Urbanist-Light.ttf in Resources */,
+				9A54FBF82D8AD87000828A03 /* Urbanist-Medium.ttf in Resources */,
+				9A54FBF92D8AD87000828A03 /* Urbanist-Italic.ttf in Resources */,
+				9A54FBFA2D8AD87000828A03 /* Urbanist-Thin.ttf in Resources */,
+				9A54FBFB2D8AD87000828A03 /* Urbanist-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AC9EC722D6452160090802B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A939A9A2D783E6A00EE36CC /* CancelSubscriptionButton.swift in Sources */,
+				9AC9EC932D6453A60090802B /* Image_Extension.swift in Sources */,
+				9A0C5D172D6C5171009DC05D /* MyProfile.swift in Sources */,
+				9AF62E232D65AEA400C59318 /* OTPVerificationView.swift in Sources */,
+				9A2B48C12D7578C50078A713 /* Subscriptionplans_Free.swift in Sources */,
+				9AC9EC9B2D6455CC0090802B /* LoginView.swift in Sources */,
+				9AF63D752D66FBF800130533 /* ResetPasswordView.swift in Sources */,
+				9A0C5D1B2D6C5824009DC05D /* EditProfile.swift in Sources */,
+				9AC9EC9E2D645A310090802B /* ButtonView.swift in Sources */,
+				9AC9EC972D6454990090802B /* ExtensionView.swift in Sources */,
+				9A43533F2D646AA0006EF1D4 /* SignUpView.swift in Sources */,
+				9A43C3832D7EB11F0047BEAE /* RentHistory.swift in Sources */,
+				9AC9EC892D64524D0090802B /* SplashScreen.swift in Sources */,
+				9A43C3852D7EBC970047BEAE /* Receipt Details.swift in Sources */,
+				9A54FBD72D8AD70400828A03 /* Fonts.swift in Sources */,
+				9A2B48C32D7586840078A713 /* SubscriptionPlans_Basic.swift in Sources */,
+				9A9825262D6C3E1E007E8F41 /* Allowlocation.swift in Sources */,
+				9A02DF322D685A260000BBAC /* CompleteProfile.swift in Sources */,
+				9AF62E2C2D65AF8B00C59318 /* OTPFieldView.swift in Sources */,
+				9A0C5D152D6C45A2009DC05D /* LocationMap.swift in Sources */,
+				9AF62E2E2D65B0A500C59318 /* HideKeyboard.swift in Sources */,
+				9A70DE9F2D6D9381009BCE6A /* DashboardView.swift in Sources */,
+				9AC9EC992D6454B40090802B /* ColorExtension.swift in Sources */,
+				9A939A982D78382A00EE36CC /* SubscriptionPlans.swift in Sources */,
+				9AC9ECA02D645A7B0090802B /* TextFieldView.swift in Sources */,
+				9A70DEA22D6DA4E8009BCE6A /* TabView.swift in Sources */,
+				9A02DF352D685BD70000BBAC /* Imagepicker.swift in Sources */,
+				9AF63D772D67064B00130533 /* ForgotPassword.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9AC9EC822D6452170090802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9AC9EC832D6452170090802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AC9EC852D6452170090802B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TenantApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G363TT9HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenantApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniskills.TenantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AC9EC862D6452170090802B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TenantApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 9G363TT9HR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenantApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shaniskills.TenantApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AC9EC712D6452160090802B /* Build configuration list for PBXProject "TenantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9EC822D6452170090802B /* Debug */,
+				9AC9EC832D6452170090802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC9EC842D6452170090802B /* Build configuration list for PBXNativeTarget "TenantApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AC9EC852D6452170090802B /* Debug */,
+				9AC9EC862D6452170090802B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AC9EC6E2D6452160090802B /* Project object */;
+}
