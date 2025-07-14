@@ -11,7 +11,7 @@ struct Receipt_Details: View {
     var body: some View {
         VStack{
             VStack{
-                
+                Text("shaniiiiiiiiii")
                 Image.appImage.invoice
                    
                  //   .frame(width:380, height: 443)
